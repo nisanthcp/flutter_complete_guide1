@@ -8,11 +8,11 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     String resultText;
     if (resultScore > 3) {
-      resultText = 'You are excellent. Toal Mark:-' + resultScore.toString() ; 
+      resultText = 'You are excellent. Total Mark:-' + resultScore.toString() ; 
     } else if (resultScore >= 1) {
       resultText = 'Your Toal Mark:-' + resultScore.toString() ;
     } else {
-      resultText = 'Your answers are wrong. Toal Mark:-' + resultScore.toString() ;
+      resultText = 'Your answers are wrong. Total Mark:-' + resultScore.toString() ;
     }
     return resultText;
   }
